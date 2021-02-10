@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const { token, prefix } = require("./config.json");
+const { token, prefix, channel } = require("./config.json");
 const game = require("./command");
 
 client.on("ready", () => {
@@ -11,7 +11,7 @@ client.on("message", async (message) => {
   if (message.author.bot) return;
   if (message.channel.type === "dm") return;
 
-  if (message.channel.id == 808418560727711744) {
+  if (message.channel.id == channel) {
     const command = message.content.toLowerCase().split(" ");
 
     if (command[0] == prefix) {

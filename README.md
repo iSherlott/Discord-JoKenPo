@@ -4,10 +4,10 @@
 
 ## Rule
 
-<p>Pedra ganha da tesoura (amassando-a ou quebrando-a).
-Tesoura ganha do papel (cortando-o).
-Papel ganha da pedra (embrulhando-a).
-A pedra é simbolizada por um punho fechado; a tesoura, por dois dedos esticados; e o papel, pela mão aberta. Caso dois jogadores façam o mesmo gesto, ocorre um empate, e geralmente se joga de novo até desempatar.</p>
+<p>Pedra ganha da tesoura (amassando-a ou quebrando-a).</p>
+<p>Tesoura ganha do papel (cortando-o).</p>
+<p>Papel ganha da pedra (embrulhando-a).</p>
+<p>A pedra é simbolizada por um punho fechado; a tesoura, por dois dedos esticados; e o papel, pela mão aberta. Caso dois jogadores façam o mesmo gesto, ocorre um empate, e geralmente se joga de novo até desempatar.</p>
 
 ## Requires
 
@@ -24,8 +24,9 @@ A pedra é simbolizada por um punho fechado; a tesoura, por dois dedos esticados
 
 <p>depois criar um arquivo configs.json declarando o seu token do bot, e o prefixo que deseja, assim como no exemplo abaixo</p><br />
 `{
-token: "INFORME O SEU TOKEN AKI"
-prefix: "INFORME O PREFIXO QUE DESEJA
+token: "INFORME O SEU TOKEN AKI",
+prefix: "INFORME O PREFIXO QUE DESEJA,
+channel: "IP DO CHANNEL QUE IRA RESPONDER"
 }`
 
 ## Commands
